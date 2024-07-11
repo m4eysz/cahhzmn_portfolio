@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'TheSeasons';
+    src: url('fonts/TheSeasons-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #EFE9DC;
+}
+
+.logo img {
+    height: 55px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 35px;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-top: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #EFE9DC;
+    padding: 20px;
+    border:solid ;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 0;
+    margin-right: 597px;
+    margin-left: 597px;
+    margin-bottom: 0;
+    font-family: 'TheSeasons', serif;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #EFE9DC;
+}
+
+.contact img {
+    border: solid 10%;
+    width: 237px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info button {
+    background-color: #EFE9DC;
+    border: ridge black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #EFE9DC;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
